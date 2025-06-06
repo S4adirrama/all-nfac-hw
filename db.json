@@ -1,0 +1,106 @@
+{
+  "messages": [
+    {
+      "id": "eeb1",
+      "username": "john",
+      "sender": "user",
+      "content": "привет "
+    },
+    {
+      "id": "9b76",
+      "username": "jane",
+      "sender": "user",
+      "content": "привет "
+    },
+    {
+      "id": "3fc2",
+      "username": "john",
+      "sender": "user",
+      "content": "ты кто "
+    },
+    {
+      "id": "0908",
+      "username": "ai-helper",
+      "sender": "user",
+      "content": "че там братан "
+    },
+    {
+      "id": "37bd",
+      "username": "ai-helper",
+      "sender": "ai",
+      "content": "[Ошибка AI]"
+    },
+    {
+      "id": "0e36",
+      "username": "ai-helper",
+      "sender": "user",
+      "content": "ты здесь братан? "
+    },
+    {
+      "id": "f28a",
+      "username": "ai-helper",
+      "sender": "ai",
+      "content": "[Ошибка AI]"
+    },
+    {
+      "id": "b484",
+      "username": "john",
+      "sender": "user",
+      "content": "привет"
+    },
+    {
+      "id": "d161",
+      "username": "jane",
+      "sender": "user",
+      "content": "яел "
+    },
+    {
+      "id": "c6c2",
+      "username": "ai-helper",
+      "sender": "user",
+      "content": "привет "
+    },
+    {
+      "id": "ec01",
+      "username": "ai-helper",
+      "sender": "ai",
+      "content": "[Ошибка AI]"
+    },
+    {
+      "id": "f039",
+      "username": "ai-helper",
+      "sender": "user",
+      "content": "привет "
+    },
+    {
+      "id": "bc39",
+      "username": "ai-helper",
+      "sender": "ai",
+      "content": "[Ошибка AI]"
+    },
+    {
+      "id": "fbeb",
+      "username": "ai-helper",
+      "sender": "user",
+      "content": "бро "
+    },
+    {
+      "id": "5c21",
+      "username": "ai-helper",
+      "sender": "ai",
+      "content": "[Ошибка AI]"
+    },
+    {
+      "id": "37a6",
+      "username": "ai-helper",
+      "sender": "user",
+      "content": "привет "
+    },
+    {
+      "id": "d6e1",
+      "username": "ai-helper",
+      "sender": "ai",
+      "content": "[Ошибка AI]"
+    }
+  ]
+}
