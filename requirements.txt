@@ -1,0 +1,6 @@
+websockets>=13.0.0
+langchain-openai>=0.1.20
+pydantic-ai>=0.0.12
+python-dotenv>=1.0.0
+google-genai>=1.18.0
+langchain-openai>=0.1.20
