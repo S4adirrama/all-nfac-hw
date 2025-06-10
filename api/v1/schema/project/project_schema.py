@@ -2,6 +2,12 @@ from pydantic import BaseModel, Field
 from typing import Optional, List, Dict
 from datetime import datetime
 
+class Project(BaseModel):
+    user_id: str
+    project_id: str
+    songs: Optional[str | int] = None
+    timestamp: datetime = Field(default_factory=datetime.utcnow)
+
 class ProjectCreate(BaseModel):
     user_id: str
     project_id: str
@@ -13,10 +19,5 @@ class ProjectUpdate(BaseModel):
 class ProjectInDB(Project):
     id: str
 
-class Project(BaseModel):
-    user_id: str
-    project_id: str
-    songs: Optional[str | int] = None
-    timestamp: datetime = Field(default_factory=datetime.utcnow)
 
 

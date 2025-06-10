@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 from typing import List
 from database import get_database, DataBase
-from api.v1.schema.order.project_schema import ProjectInDB
-from api.v1.services.order.project_services import ProjectService
+from api.v1.schema.project.project_schema import ProjectInDB
+from api.v1.services.project.project_services import ProjectService
 router = APIRouter()
 
 @router.post("/projects/", response_model=ProjectInDB)

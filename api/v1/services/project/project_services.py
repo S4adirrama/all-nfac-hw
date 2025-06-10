@@ -2,7 +2,7 @@ from bson import ObjectId
 from typing import List, Optional
 from fastapi import HTTPException
 from database import DataBase
-from api.v1.schema.order.project_schema import ProjectInDB, ProjectCreate, ProjectUpdate
+from api.v1.schema.project.project_schema import ProjectInDB, ProjectCreate, ProjectUpdate
 
 class ProjectService:
     def __init__(self, db: DataBase):
