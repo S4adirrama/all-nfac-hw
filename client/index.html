@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Project Manager</h1>
+    <form id="project-form">
+      <input type="text" id="project-name" placeholder="Project Name" required />
+      <textarea id="project-description" placeholder="Project Description" required></textarea>
+      <button type="submit" id="submit-btn">Create Project</button>
+    </form>
+
+    <div id="project-display" class="hidden">
+      <h2 id="display-name"></h2>
+      <p id="display-description"></p>
+      <button id="edit-btn">Edit</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
