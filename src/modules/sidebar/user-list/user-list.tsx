@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import type { User } from "../../shared/model/types";
+import type { User } from "../../../shared/model/types";
 
 interface UserListProps {
   users: User[];
